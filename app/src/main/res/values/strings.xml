@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Disputation</string>
+    <string name="instructions">
+        "You are presented a sequence of statements. Each is true, false, or undecided. A simple statement has one part, for example 'It is cold.'\n\n"
+        "You must Assent or Refute each statement. Assenting to an undecided statement makes it true; Refuting an undecided statement makes it false. However, if the statement is already true or false, then you must Assent of Refute accordingly.\n\n"
+        "An 'and' statement is true if both parts are true, false if at least one part is false, and undecided otherwise. An 'or' statement is true if at least one part is true, false of both parts are false, and undecided otherwise.\n\n"
+        "An 'if … then …' statement is true if its first part is false or if its last part is true. It is false if the first part is true and the last part is false. It is undecided otherwise.\n\n"
+        "Press Assent to start a game!"
+    </string>
+    <string name="assent">Assent</string>
+    <string name="refute">Refute</string>
+    <string-array name="positive_statements">
+        <item>I am clever</item>
+        <item>You are clever</item>
+        <item>Seneca is human</item>
+        <item>humans are mortal</item>
+        <item>humans are clever</item>
+        <item>I am human</item>
+        <item>You are human</item>
+        <item>I am mortal</item>
+        <item>You are mortal</item>
+        <item>Kipekee is a giraffe</item>
+        <item>giraffes are tall</item>
+        <item>giraffes are mortal</item>
+        <item>it is day</item>
+        <item>it is warm</item>
+        <item>I am pleasant</item>
+        <item>You are pleasant</item>
+        <item>mice are harmless</item>
+        <item>mice are small</item>
+        <item>mice are mortal</item>
+    </string-array>
+    <string-array name="negative_statements">
+        <item>I am foolish</item>
+        <item>You are foolish</item>
+        <item>Seneca is not human</item>
+        <item>humans are immortal</item>
+        <item>humans are foolish</item>
+        <item>I am not human</item>
+        <item>You are not human</item>
+        <item>I am immortal</item>
+        <item>You are immortal</item>
+        <item>Kipekee is a mouse</item>
+        <item>giraffes are small</item>
+        <item>giraffes are immortal</item>
+        <item>it is night</item>
+        <item>it is cold</item>
+        <item>I am obnoxious</item>
+        <item>You are obnoxious</item>
+        <item>mice are dangerous</item>
+        <item>mice are tall</item>
+        <item>mice are immortal</item>
+    </string-array>
+    <string-array name="difficulty">
+        <item>Easy</item>
+        <item>Routine</item>
+        <item>Challenging</item>
+    </string-array>
+    <string name="and">and</string>
+    <string name="or">or</string>
+    <string name="if_">if</string>
+    <string name="then">then</string>
+    <string name="is">is</string>
+    <string name="true_">true</string>
+    <string name="false_">false</string>
+    <string name="undecided">undecided</string>
+    <string name="therefore">Hence</string>
+    <string name="present_whole">Here is the disputation</string>
+    <string name="score">Your score is</string>
+    <string name="new_game">Assent for a new game</string>
+    <string name="win">You are clever! No more questions.</string>
+    <string name="lose">A contradiction!</string>
+</resources>
