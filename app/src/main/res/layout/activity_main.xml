@@ -5,13 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+    <ScrollView
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+
 
         <TextView
             android:id="@+id/propositionView"
@@ -63,5 +69,6 @@
 
         </LinearLayout>
     </LinearLayout>
+</ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

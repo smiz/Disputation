@@ -2,14 +2,16 @@
     <string name="app_name">Disputation</string>
     <string name="instructions">
         "You are presented a sequence of statements. Each is true, false, or undecided. A simple statement has one part, for example 'It is cold.'\n\n"
-        "You must Assent or Refute each statement. Assenting to an undecided statement makes it true; Refuting an undecided statement makes it false. However, if the statement is already true or false, then you must Assent of Refute accordingly.\n\n"
-        "An 'and' statement is true if both parts are true, false if at least one part is false, and undecided otherwise. An 'or' statement is true if at least one part is true, false of both parts are false, and undecided otherwise.\n\n"
+        "You must Assent or Refute each statement. Assenting to an undecided statement makes it true; Refuting an undecided statement makes it false. However, if the statement is already true or false, then you must Assent or Refute accordingly.\n\n"
+        "An 'and' statement is true if both parts are true, false if at least one part is false, and undecided otherwise. An 'or' statement is true if at least one part is true, false if both parts are false, and undecided otherwise.\n\n"
         "An 'if … then …' statement is true if its first part is false or if its last part is true. It is false if the first part is true and the last part is false. It is undecided otherwise.\n\n"
         "Press Assent to start a game!"
     </string>
     <string name="assent">Assent</string>
     <string name="refute">Refute</string>
     <string-array name="positive_statements">
+        <item>Columbo is shrewd</item>
+        <item>Carthage and Rome are at war</item>
         <item>I am clever</item>
         <item>You are clever</item>
         <item>Seneca is human</item>
@@ -31,6 +33,8 @@
         <item>mice are mortal</item>
     </string-array>
     <string-array name="negative_statements">
+        <item>Columbo is an imbecile</item>
+        <item>Carthage and Rome are allies</item>
         <item>I am foolish</item>
         <item>You are foolish</item>
         <item>Seneca is not human</item>

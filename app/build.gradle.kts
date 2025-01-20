@@ -4,14 +4,14 @@ plugins {
 
 android {
     namespace = "net.oldtimebaseball.disputation"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "net.oldtimebaseball.disputation"
         minSdk = 24
         targetSdk = 34
-        versionCode = 2
-        versionName = "2.0"
+        versionCode = 3
+        versionName = "3.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

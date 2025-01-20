@@ -11,7 +11,6 @@ import java.util.Set;
 import java.util.Random;
 import java.util.TreeSet;
 
-import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Spinner;
 import gameoflogic.Strings;
@@ -36,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences settings = getApplicationContext().getSharedPreferences("appSettings", MODE_PRIVATE);
         difficultySelection = settings.getInt("difficulty",0);
         setContentView(R.layout.activity_main);
-        ((Button)(findViewById(R.id.assentButton))).setOnClickListener(view -> assent());
-        ((Button)(findViewById(R.id.refuteButton))).setOnClickListener(view -> refute());
+        findViewById(R.id.assentButton).setOnClickListener(view -> assent());
+        findViewById(R.id.refuteButton).setOnClickListener(view -> refute());
         ((Spinner)findViewById(R.id.difficultySelector)).setSelection(difficultySelection);
     }
 
@@ -77,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void gameEnds() {
-        ((Spinner)findViewById(R.id.difficultySelector)).setEnabled(true);
+        findViewById(R.id.difficultySelector).setEnabled(true);
         active_game = false;
     }
     private void win() {
@@ -116,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
         takeAction(false);
     }
     private void newGame() {
-        ((Spinner)findViewById(R.id.difficultySelector)).setEnabled(false);
+        findViewById(R.id.difficultySelector).setEnabled(false);
         Random r = new Random();
         difficultySelection = ((Spinner)findViewById(R.id.difficultySelector)).getSelectedItemPosition();
         String [] positiveStatements = getResources().getStringArray(R.array.positive_statements);
